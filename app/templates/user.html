@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>User: </h1>
+    <hr>
+    {% for footballer in footballers %}
+        <div style="border: 1px solid black">
+        Name: {{ footballer.name }}<br>
+        Surname: {{ footballer.surname }}<br>
+        Team: {{ footballer.team }}<br>
+        Country: {{ footballer.country }}<br>
+        Added by: {{ user.username }}
+        </div>
+    {% endfor %}
+{% endblock %}

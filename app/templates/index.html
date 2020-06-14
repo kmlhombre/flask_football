@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Homepage</h1>
+    <h1>Footballers in database: </h1>
+    <hr>
+    {% for user in users %}
+        {% for footballer in footballers %}
+            {% if footballer.added_by == user.id %}
+                <div style="border: 1px solid black">
+                Name: {{ footballer.name }}<br>
+                Surname: {{ footballer.surname }}<br>
+                Team: {{ footballer.team }}<br>
+                Country: {{ footballer.country }}<br>
+                Added by: {{ user.username }}
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
