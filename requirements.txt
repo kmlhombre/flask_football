@@ -30,7 +30,7 @@ genpy==0.6.9
 image-geometry==1.13.0
 interactive-markers==1.11.5
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 joint-state-publisher==1.12.15
 kdl-parser-py==1.13.1
 laser-geometry==1.6.5
