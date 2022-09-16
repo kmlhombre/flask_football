@@ -34,7 +34,7 @@ Jinja2==2.11.2
 joint-state-publisher==1.12.15
 kdl-parser-py==1.13.1
 laser-geometry==1.6.5
-Mako==1.1.3
+Mako==1.2.2
 MarkupSafe==1.1.1
 message-filters==1.14.5
 MyApplication==0.1.0
